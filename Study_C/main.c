@@ -7,9 +7,20 @@
 //
 
 #include <stdio.h>
+#include "Showintro.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+void Operator01(void);
+
+int main(void){
+    
+    Showintro();
+    
+    Operator01();
+    
+
     return 0;
+    
+    
+    
 }
